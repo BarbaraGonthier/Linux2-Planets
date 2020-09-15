@@ -1,0 +1,23 @@
+wilder@orleans:~/quests/shell/planets$ find
+.
+./habitees
+./habitees/earth.jpeg
+./habitees/cybertron.jpeg
+./habitees/arrakis.jpeg
+./habitees/coruscant.jpeg
+./reelles
+./reelles/geantes-gazeuses
+./reelles/geantes-gazeuses/neptune.jpeg
+./reelles/geantes-gazeuses/uranus.jpeg
+./reelles/geantes-gazeuses/jupiter.jpeg
+./reelles/geantes-gazeuses/saturn.jpeg
+./reelles/planetes-naines
+./reelles/terrestre
+./reelles/terrestre/venus.jpeg
+./reelles/terrestre/mars.jpeg
+./reelles/terrestre/earth.jpeg
+./reelles/terrestre/mercury.jpeg
+./fictives
+./fictives/cybertron.jpeg
+./fictives/arrakis.jpeg
+./fictives/coruscant.jpeg
