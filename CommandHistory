@@ -1,0 +1,25 @@
+wilder@orleans:~/quests/shell$ ls
+fruits  planets  planets.zip  vegetables
+wilder@orleans:~/quests/shell$ cd planets
+wilder@orleans:~/quests/shell/planets$ ls
+arrakis.jpeg    earth.jpeg    mercury.jpeg  saturn.jpeg
+coruscant.jpeg  jupiter.jpeg  neptune.jpeg  uranus.jpeg
+cybertron.jpeg  mars.jpeg     pluto.jpeg    venus.jpeg
+wilder@orleans:~/quests/shell/planets$ mkdir reelles fictives habitees
+wilder@orleans:~/quests/shell/planets$ ls
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg
+coruscant.jpeg  fictives    mars.jpeg     pluto.jpeg    uranus.jpeg
+cybertron.jpeg  habitees    mercury.jpeg  reelles       venus.jpeg
+wilder@orleans:~/quests/shell/planets$ mkdir reelles/terrestre reelles/geantes-gazeuses reelles/planetes-naines
+wilder@orleans:~/quests/shell/planets$ mv pluto reelles/planetes-naines
+mv: impossible d'évaluer 'pluto': Aucun fichier ou dossier de ce type
+wilder@orleans:~/quests/shell/planets$ mv pluto.jpeg reelles/planetes-naines
+wilder@orleans:~/quests/shell/planets$ mv coruscant.jpeg arrakis.jpeg cybertron.jpeg fictives
+wilder@orleans:~/quests/shell/planets$ mv neptune.jpeg reelles/geantes-gazeuses/
+wilder@orleans:~/quests/shell/planets$ mv uranus.jpeg reelles/geantes-gazeuses/
+wilder@orleans:~/quests/shell/planets$ mv jupiter.jpeg reelles/geantes-gazeuses/
+wilder@orleans:~/quests/shell/planets$ mv mercury.jpeg venus.jpeg earth.jpeg mars.jpeg reelles/terrestre/
+wilder@orleans:~/quests/shell/planets$ mv saturn.jpeg reelles/geantes-gazeuses/
+wilder@orleans:~/quests/shell/planets$ cp fictives/cybertron.jpeg fictives/arrakis.jpeg fictives/coruscant.jpeg habitees
+wilder@orleans:~/quests/shell/planets$ cp reelles/terrestre/earth.jpeg habitees/
+wilder@orleans:~/quests/shell/planets$ rm -r reelles/planetes-naines/pluto.jpeg 
